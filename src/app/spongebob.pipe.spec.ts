@@ -15,6 +15,10 @@ describe('SpongebobPipe', () => {
     expect(pipe.transform('Spongebob Square')).toBe('sPoNgEbOb SqUaRe');
   });
 
+  it('transforms "spONGebobsqUAre" to "sPoNgEbObSqUaRe"', () => {
+    expect(pipe.transform('spONGebobsqUAre')).toBe('sPoNgEbObSqUaRe');
+  });
+
   // it('should convert todoBody to SpongebobCase', () => {
   //   const fixture = TestBed.createComponent(TodoComponent);
   //   const hostElement = fixture.nativeElement;
