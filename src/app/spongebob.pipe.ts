@@ -10,3 +10,5 @@ export class SpongebobPipe implements PipeTransform {
   }
 
 }
+// Pipe that adds spongebob case
+// first char lowercase, next uppercase, ignoring spaces

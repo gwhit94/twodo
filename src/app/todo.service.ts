@@ -7,3 +7,5 @@ export class TodoService {
 
   constructor() { }
 }
+// Stores todos
+// Update todos based off functionality in the component

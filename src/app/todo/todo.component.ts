@@ -13,3 +13,9 @@ export class TodoComponent implements OnInit {
   }
 
 }
+// REQS
+
+// Add todos
+// Remove todos
+// Update Todos
+// Mark todos as completed

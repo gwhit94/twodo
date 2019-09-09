@@ -1,0 +1,20 @@
+Tests Needed
+
+    Pipe
+        Check to see if casing works in transform function
+        Check to see if it works in a component
+    Directive
+        See if it makes the color different
+            Red for incomplete
+            Green for complete
+        See what happens if invalid value is provided
+    App Component
+        Make sure title binds to top
+        Make sure address binds to bottom
+    Todo Component
+        See if it adds to the page
+        See if it can communicate with the service
+        Check to see if all buttons work
+        Make sure everything is binding correctly
+    Todo Service
+        Check to see if all functions work
